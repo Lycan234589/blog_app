@@ -1,0 +1,23 @@
+body{
+    background: #e9e8e9;
+}
+
+
+.cont{
+   
+    padding:4rem 8rem
+}
+
+.blog{
+    background-color: #eeeded;
+    margin: 1rem;
+    box-shadow: 0 0 4px  #333;
+}
+
+
+.auth{
+    background-color:#fff;
+    box-shadow:0 0 4px 0 #ccc;
+    margin:4rem auto;
+    max-width:40rem;
+}

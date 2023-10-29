@@ -1,0 +1,17 @@
+<%- include("Header.ejs") -%>
+
+    <div class="blogs cont">
+        <h1 class="text-center mb-5">Welcome to the Blogs Page</h1>
+        <% blogs_array.forEach((blog_object)=>{ %>
+            <div class="blog cont">
+                <h2>
+                    <%= blog_object.title %>
+                </h2>
+                <p>
+                    <%= blog_object.content %>
+                </p>
+            </div>
+            <% }) %>
+    </div>
+
+    <%- include("Footer.ejs") -%>
